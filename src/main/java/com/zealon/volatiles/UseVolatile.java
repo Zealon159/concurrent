@@ -1,5 +1,8 @@
 package com.zealon.volatiles;
 
+/**
+ * volatile特性 - 线程间共享变量
+ */
 public class UseVolatile implements Runnable {
     //volatile
     private  boolean stop = true;
