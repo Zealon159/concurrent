@@ -1,4 +1,4 @@
-package com.zealon.volatiles;
+package cn.zealon.volatiles;
 
 /**
  * volatile特性 - 线程间共享变量

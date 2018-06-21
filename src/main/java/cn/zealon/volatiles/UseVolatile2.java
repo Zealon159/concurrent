@@ -1,6 +1,4 @@
-package com.zealon.volatiles;
-
-import java.util.concurrent.atomic.AtomicInteger;
+package cn.zealon.volatiles;
 
 /**
  * volatile特性 - 非原子性

@@ -1,4 +1,4 @@
-package com.zealon.synchronizes;
+package cn.zealon.lock;
 
 /**
  * 多个对象多个锁的特性

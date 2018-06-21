@@ -1,4 +1,4 @@
-package com.zealon.synchronizes;
+package cn.zealon.lock;
 
 /**
  * synchronized 锁

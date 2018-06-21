@@ -1,4 +1,4 @@
-package com.zealon.synchronizes;
+package cn.zealon.lock;
 
 public class UseSynchronize3 implements Runnable {
 
