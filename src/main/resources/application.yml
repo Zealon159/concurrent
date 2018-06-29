@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  ## thymeleaf ≈‰÷√
+  thymeleaf:
+    encoding: UTF-8
+    cache: false
+    mode: LEGACYHTML5
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/biz_db?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: pass123
