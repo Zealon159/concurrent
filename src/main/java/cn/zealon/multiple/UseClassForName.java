@@ -9,7 +9,6 @@ import java.util.Date;
  */
 public class UseClassForName {
     public static void main(String[] args){
-        //System.out.println(new Date().getClass());
         try {
             //使用forName ，按类的全路径名，动态创建Class
             Class<?> date = Class.forName("java.util.Date");

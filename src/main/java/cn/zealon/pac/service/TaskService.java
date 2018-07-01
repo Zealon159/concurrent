@@ -1,12 +1,9 @@
 package cn.zealon.pac.service;
 
-import cn.zealon.pac.Task;
 import cn.zealon.pac.config.QueueBean;
 import cn.zealon.pac.consumer.TaskConsumer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import java.lang.management.ThreadInfo;
 
 /**
  * @auther: Zealon

@@ -14,7 +14,7 @@ public class UseSynchronize1 implements Runnable {
      * 原理：当多个线程访问时，每个线程会尝试获得锁，如果拿到锁则执行该内容，执行后释放锁，其它线程继续竞争锁...
      */
     @Override
-    public void run() {
+    public synchronized void run() {
         tickets--;
         System.out.println(Thread.currentThread().getName()+":"+tickets);
     }
@@ -34,6 +34,5 @@ public class UseSynchronize1 implements Runnable {
         t3.start();
         t4.start();
         t5.start();
-
     }
 }

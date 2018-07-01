@@ -15,7 +15,7 @@ public class UseSynchronize2 {
      * @desc
      *  使用 static 修饰， 使synchronized的锁定义在class级上，保证了并发访问时，只能有一个线程能访问
      */
-    public synchronized void arrivePlace(String place){
+    public static synchronized void arrivePlace(String place){
         if(place.equals("拉萨")){
             ticketPrice = 500;
             System.out.println("place:"+place+",set ticketPrice over!");

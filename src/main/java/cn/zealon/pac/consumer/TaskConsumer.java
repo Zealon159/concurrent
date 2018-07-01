@@ -1,12 +1,11 @@
 package cn.zealon.pac.consumer;
 
-
 import cn.zealon.pac.Task;
 
-import java.util.Date;
 import java.util.concurrent.BlockingQueue;
 
 /**
+ * 消费者
  * @auther: Zealon
  * @Date: 2018-06-29 15:02
  */
@@ -30,7 +29,6 @@ public class TaskConsumer implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
         }
     }
 

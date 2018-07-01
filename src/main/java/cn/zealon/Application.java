@@ -1,12 +1,9 @@
 package cn.zealon;
 
-import cn.zealon.pac.Task;
 import cn.zealon.pac.config.QueueBean;
-import cn.zealon.pac.consumer.TaskConsumer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
 import java.util.concurrent.*;
 
 @SpringBootApplication
@@ -22,7 +19,7 @@ public class Application {
                 10,     //max
                 120L,      //两分钟
                 TimeUnit.SECONDS,       //单位
-                new ArrayBlockingQueue(55));
+                blockingQueue);
 
         queueBean.setExecutorService(executorService);
         return queueBean;
@@ -31,7 +28,5 @@ public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
-
-
 
 }
