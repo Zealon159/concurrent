@@ -24,6 +24,7 @@ public class UseInterrupt implements Runnable{
     public synchronized void redGreenLight() throws InterruptedException {
         while (true){
             for(int i=second;i>=0;i--) {
+
                 Thread.sleep(1000);
 
                 if(i==0){
@@ -62,7 +63,7 @@ public class UseInterrupt implements Runnable{
         try {
             redGreenLight();
         } catch (InterruptedException e) {
-
+e.printStackTrace();
         }
     }
 
