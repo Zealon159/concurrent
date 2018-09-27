@@ -11,6 +11,8 @@ public class UseHashMap {
     public static void main(String[] args){
         Map<String,Object> map = new HashMap();
         map.put("1","2");
+        map.size();
 
+        map.hashCode();
     }
 }
