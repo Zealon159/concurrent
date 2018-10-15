@@ -14,6 +14,7 @@ public class ApplicationTests {
 
         String abc = "";
         System.out.println(abc.hashCode());
+        System.out.println(System.currentTimeMillis());
     }
 
 }
