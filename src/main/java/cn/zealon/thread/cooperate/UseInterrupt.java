@@ -63,7 +63,7 @@ public class UseInterrupt implements Runnable{
         try {
             redGreenLight();
         } catch (InterruptedException e) {
-e.printStackTrace();
+            e.printStackTrace();
         }
     }
 

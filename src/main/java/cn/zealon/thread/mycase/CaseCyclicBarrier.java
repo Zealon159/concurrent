@@ -24,7 +24,7 @@ public class CaseCyclicBarrier {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            System.out.println("所有任务完毕，继续处理其他任务... "+System.currentTimeMillis());
+            System.out.println("所有任务完毕，继续处理其他任务... ");
         }
     }
 
@@ -43,7 +43,7 @@ public class CaseCyclicBarrier {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            System.out.println("所有任务完毕，继续处理其他任务... "+System.currentTimeMillis());
+            System.out.println("所有任务完毕，继续处理其他任务... ");
         }
     }
 

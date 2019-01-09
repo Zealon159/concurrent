@@ -16,7 +16,7 @@ public class UseHashMap {
         map.put("",null);
         map.put(null,null);
         map.size();
-
+/*
 
         map.hashCode();
 
@@ -35,7 +35,19 @@ public class UseHashMap {
         //hashtable.put("a","");
         //hashtable.put("a1","23");
         System.out.println(hashtable.size());
-        System.out.println(hashtable.get("a"));
+        System.out.println(hashtable.get("a"));*/
 
+
+
+        printHashMap(map);
+
+    }
+
+    public static void printHashMap(Map<String,Object> map){
+        Iterator iterator = map.entrySet().iterator();
+        while (iterator.hasNext()){
+            Map.Entry entry = (Map.Entry) iterator.next();
+            System.out.println(entry.getKey()+" "+entry.getValue());
+        }
     }
 }

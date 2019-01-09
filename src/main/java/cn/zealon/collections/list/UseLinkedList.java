@@ -13,6 +13,7 @@ public class UseLinkedList {
 
     public static void main(String[] args){
         List<String> list = new LinkedList<String>();
+        list.clear();
         for(int i=1;i<=5;i++){
             String string = "黑足猫"+i;
             list.add(string);
@@ -29,6 +30,10 @@ public class UseLinkedList {
         list.remove(2);
         System.out.println(list.toString());
 
+
+        for(int i=0;i<list.size();i++){
+            System.out.println(list.get(i));
+        }
 
     }
 }
